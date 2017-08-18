@@ -1,0 +1,19 @@
+import React, {Component, PropTypes} from 'react';
+import { AppRegistry, StyleSheet, Text, View, Button, TextInput, 
+  ListView, TouchableOpacity, KeyboardAvoidingView, Navigator } from 'react-native';
+
+export default class App extends React.Component {
+  render() {
+    return (
+
+      <View><Text>Hello</Text></View>
+      /*<Navigator
+        initialRoute={{ title: 'Home Page', index: 0}}
+        renderScene={(route, navigator) => 
+          <HomePage />
+        }
+        style={{padding:100}}
+      />*/
+    );
+  }
+}
